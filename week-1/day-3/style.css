@@ -1,6 +1,31 @@
-p {
+span {
   color: blue; /* Styles! */
   font-size: 20px;
   font-style: italic;
   line-height: 22px;
+}
+
+p{
+  color: rgba(212, 190, 67, 0.596);
+}
+
+
+/*  colors 
+  color - font color
+  background color - element
+  
+  body{
+  background-color:#291fd8;
+}
+*/
+
+h1{
+  text-align: center; /* left, center, right, justify*/
+  text-transform: capitalize;
+  text-decoration: underline; /* none, underline*/
+  line-height: 150px; /* number, px value*/
+  font-weight: bold; /*normal, bold*/
+  font-style: italic;
+  font-size: 76px;
+ /* font-family: sans-serif;*/
 }
