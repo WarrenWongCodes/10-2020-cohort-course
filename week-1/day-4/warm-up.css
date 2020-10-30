@@ -1,0 +1,15 @@
+h1 {
+    text-transform: lowercase;
+    color: red;
+    /*font-family: 'Turret Road', cursive;*/
+}
+
+h2 {
+    text-align: right;
+    color: seashell;
+}
+
+h3 {
+    font-size: 58px;
+    color: slategray
+}
