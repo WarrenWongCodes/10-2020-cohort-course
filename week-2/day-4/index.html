@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W2D4 - JS Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. create div for window
+    2. create div for imagerslider
+    3. add images of similar width and height
+    4. normalize the image sizes to be the same -->
+    <div>
+        <h2>Animated Carousel</h2>
+        <div class="window">
+            <div id="imageSlider">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?cs=srgb&dl=pexels-andy-vu-3244513.jpg&fm=jpg" alt="">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?cs=srgb&dl=pexels-ian-beckley-2440021.jpg&fm=jpg" alt="">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/697313/pexels-photo-697313.jpeg?cs=srgb&dl=pexels-pok-rie-697313.jpg&fm=jpg" alt="">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/356807/pexels-photo-356807.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+            </div>
+        </div>
+        <h2>JavaScript Carousel</h2>
+        <div class="window">
+            <div id="imageSlider2">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/36785/soldier-military-uniform-american.jpg?cs=srgb&dl=pexels-pixabay-36785.jpg&fm=jpg" alt="">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/128880/parachute-skydiving-parachuting-jumping-128880.jpeg?cs=srgb&dl=pexels-pixabay-128880.jpg&fm=jpg" alt="">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/55819/aircraft-cargo-aircraft-cargo-transport-55819.jpeg?cs=srgb&dl=pexels-pixabay-55819.jpg&fm=jpg" alt="">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/280002/pexels-photo-280002.jpeg?cs=srgb&dl=pexels-pixabay-280002.jpg&fm=jpg" alt="">
+                <img width= "500px" height="400px" src="https://images.pexels.com/photos/76964/fighter-jet-f-15-strike-eagle-fighter-aircraft-jet-fighter-76964.jpeg?cs=srgb&dl=pexels-pixabay-76964.jpg&fm=jpg" alt=""> 
+            </div>     
+            <button onclick="prevImage()">prev</button>
+            <button onclick="nextImage()">next</button>   
+        </div>   
+            
+    </div>
+  
+    <script src="./script.js"></script>
+</body>
+</html>

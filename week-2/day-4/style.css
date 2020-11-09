@@ -1,0 +1,37 @@
+h2{
+    text-align: center ;
+}
+
+@keyframes carousel{
+    0%{transform: translateX(0);}        
+    25%{transform: translateX(-500px);}
+    50%{transform: translateX(-1000px);}
+    75%{transform: translateX(-1500px);}
+    100%{transform: translateX(-2000px);}
+}
+
+button{
+    float: left;
+    margin-right:5px;
+    position: relative;
+    bottom: 5%;
+}       
+
+#imageSlider{
+    display: flex;
+    animation-name: carousel;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.window{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#imageSlider2{
+    display: flex;
+}
+
